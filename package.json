@@ -1,0 +1,15 @@
+{
+  "name": "ali_big_bang_academy",
+  "version": "1.0.0",
+  "description": "Alshir Soyunjov interview with Big Bang Academy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alshir Soyunjov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

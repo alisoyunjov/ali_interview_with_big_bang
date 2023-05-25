@@ -1,0 +1,23 @@
+1. What is the purpose of the "key" prop in React?
+
+----- The key prop in React is used to identify each item in a list of components or elements. When rendering a list of components or elements in React, each item needs to have a unique identifier so that React can efficiently update the list as changes are made.
+
+2. What is the purpose of the "useEffect" hook in React?
+
+----- The useEffect hook in React is used to perform side effects in functional components. Side effects are operations that affect the outside world, such as fetching data from an API, updating the browser's title, or setting up event listeners.
+The useEffect hook allows you to perform side effects in response to changes in the component's props or state. It replaces the functionality of the componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods in class components.
+The useEffect hook takes two arguments: a function that performs the side effect, and an optional array of dependencies that determine when the effect should be re-run. The effect function is called after the component has rendered for the first time, and then again whenever any of the dependencies change.
+
+3. What is the purpose of the "setState" function in React class components?
+
+----- The setState function in React class components is used to update the component's state. The state is an object that contains the data that the component needs to render and respond to user input. The setState function allows you to update the state in response to user input or other events, causing the component to re-render with the updated data.
+
+4. What technique is commonly used to handle authentication and authorization in Node.js?
+
+----- In Node.js, a commonly used technique for handling authentication and authorization is to use JSON Web Tokens (JWTs).
+JWTs are a way to securely transmit information between parties as a JSON object. They are signed using a secret key, which ensures that the information is not tampered with or modified in transit. JWTs can be used to identify users and grant them access to protected resources, such as APIs or web applications.
+
+5. What is the role of a package manager in Node.js?
+
+----- In Node.js, a package manager is a tool that helps developers manage and install third-party packages and dependencies in their Node.js projects. The two most commonly used package managers in Node.js are npm (Node Package Manager) and Yarn.
+The role of a package manager in Node.js is to simplify the process of managing dependencies and libraries in a project. Instead of manually downloading and installing packages, the package manager handles all the necessary steps, including package installation, version management, and dependency resolution.
